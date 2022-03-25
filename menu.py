@@ -1,3 +1,64 @@
+class persona():
+    def __init__(self):
+        self.__personas == [
+
+            {
+            
+
+            }    
+            ]
+
+    def agregarpersona(self):
+        cedula == input("digite cedula")
+        nombre == input("digite nombre")
+        apellidos == input("digite apellidos")
+        direccion == input("digite direccion")
+        telefono == input("digite telefono")
+
+        self.__personas.append(
+
+                {
+                  "cedula": cedula,
+                  "nombre" : nombre,
+                  "apellidos" : apellidos,
+                  "direccion" : direccion,
+                  "telefono" : telefono,      
+
+                }
+
+        )
+
+        
+
+class empleado(persona):
+     def __init__(self):
+        super().__init__()
+        self.__empleados = [{
+
+
+
+        
+            "emp":{
+
+
+            },
+
+            "dev":{
+
+
+            }
+
+            "ded":{
+
+
+            },
+
+
+        }
+        ]
+
+
+
 import os
 
 
@@ -69,6 +130,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
 
 
 
