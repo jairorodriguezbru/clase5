@@ -28,6 +28,9 @@ class persona():
 
         )
 
+
+
+
         
 
 class empleado(persona):
@@ -56,6 +59,21 @@ class empleado(persona):
 
         }
         ]
+
+
+    def agregarEmpleado(self):
+        super().agregarpersona()
+        salario =float(input(""))
+        self.__empleados.append(
+            {
+            "emp": super().__personas       
+
+
+            }
+
+           )
+
+
 
 
 
@@ -130,6 +148,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
 
 
 
