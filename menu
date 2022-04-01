@@ -1,0 +1,181 @@
+
+class persona() :
+    def __init__(self):
+            self.__personas ==[
+            {
+            
+
+            }    
+            ]
+
+
+    def agregarpersona(self):
+        cedula == input ("digite cedula")    
+        nombre == input ("digite nombre")
+        apellidos == input ("digite apellidos")
+        direccion == input ("digite direccion")
+        telefono == input ("digite telefono")
+
+        self.__personas.append(
+                {
+                "cedula": cedula,
+                "nombre": nombre,
+                "apellidos": apellidos,
+                "direccion": direccion,
+                "telefono": telefono,     
+
+                }
+
+         )
+                
+
+
+
+
+        
+
+        class empleado(persona):
+         def __init__(self):
+            super().__init__()
+            self.__empleados =  [
+            
+            {
+
+
+        
+            "emp":{
+
+
+            },
+
+            "dev":{
+
+
+            },
+
+            "ded":{
+
+
+            },
+
+
+            }
+         ]
+
+
+        def agregarEmpleado(self):
+            super().agregarpersona()
+            salario =float(input(""))
+            self.__empleados.append(
+            {
+            "emp": super().__personas       
+
+
+            }
+
+           )
+
+
+
+
+
+
+import os
+
+
+def mostrarmenu(opciones):
+        while(True):
+            os.system("clear")
+            for item in opciones:
+                print(item)
+
+
+    
+            opcion = input("digite opcion")
+   
+
+
+            if opcion == "1":
+                os.system("clear")
+                print("esta es la opcion 1")
+
+
+
+            elif opcion == "2":
+                os.system("clear")
+                print("esta es la opc 2")
+                input("digite una tecla para continuar")
+
+
+            elif opcion == "3":
+                os.system("clear")
+                print("esta es la opc 3")
+                input("digite una tecla para continuar")
+
+            
+            
+            elif opcion == "5":
+                os.system("clear")
+                input("digite una tecla para salir")
+
+
+                
+
+
+
+
+
+
+
+
+def menu():
+    opciones ={
+    "menu principal",
+    "1 agregar empleado",
+    "2 listar empleado",
+    "3 eliminar empleado",
+    "s. SALIR"
+    }
+
+
+    mostrarmenu(opciones)
+
+
+def main():
+    menu()
+
+
+
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
